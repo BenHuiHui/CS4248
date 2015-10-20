@@ -6,7 +6,7 @@ public class LogisticRegression {
     private double[] weights;
     private double rate = 0.0001;
     //private double threshold = 0.01;
-    private int numOfIterations = 30000;
+    private int numOfIterations = 3000;
 
     public LogisticRegression(int n){
         this.weights = new double[n];
@@ -32,7 +32,7 @@ public class LogisticRegression {
                 double predicted = classify(instance);
                 int label = instance.label;
                 for (int k=0; k<weights.length; k++) {
-                    weights[k] = weights[k] + rate * (label - predicted) * instance.features.get(k);
+                    weights[k] = weights[k] + rate * (label - predicted) * instance.features[k];
                 }
             }
         }
@@ -55,11 +55,16 @@ public class LogisticRegression {
         return results;
     }
 
+    public int classifySingle(Instance instance){
+        //System.out.println(classify(instance));
+        return classify(instance) > 0.5 ? 1 : 0;
+    }
+
     private double classify (Instance instance){
 
         double logit = .0;
         for (int i=0; i<weights.length;i++)  {
-            logit += weights[i] * instance.features.get(i);
+            logit += weights[i] * instance.features[i];
         }
         return sigmoid(logit);
     }

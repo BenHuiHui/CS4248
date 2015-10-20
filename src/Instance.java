@@ -2,10 +2,14 @@ import java.util.List;
 
 public class Instance {
 
-    public List<Integer> features;
+    public int[] features;
     public int label;
 
-    public Instance(List<Integer>features, int label){
+    public Instance(){
+        //Do nothing
+    }
+
+    public Instance(int[]features, int label){
         this.features = features;
         this.label = label;
     }
