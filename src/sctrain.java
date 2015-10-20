@@ -3,4 +3,11 @@
  */
 
 public class sctrain {
+
+
+
+    public static void  main(String[] args){
+
+    }
+
 }
