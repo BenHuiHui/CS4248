@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38fcb2f5-9782-4a85-80c8-323eb87107b2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Correctness.class" afterPath="$PROJECT_DIR$/src/Correctness.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LogisticRegression.class" afterPath="$PROJECT_DIR$/src/LogisticRegression.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Correctness.java" afterPath="$PROJECT_DIR$/src/Correctness.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/LogisticRegression.java" afterPath="$PROJECT_DIR$/src/LogisticRegression.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adapt_adopt.answer.test" afterPath="$PROJECT_DIR$/src/adapt_adopt.answer.test" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/adapt_adopt.modal" afterPath="$PROJECT_DIR$/src/adapt_adopt.modal" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -42,14 +41,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LogisticRegression.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LogisticRegression.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LogisticRegression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0074627">
-              <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding>
-                <element signature="e#3175#3176#0" expanded="true" />
-                <element signature="e#3220#3221#0" expanded="true" />
+                <element signature="e#2172#2173#0" expanded="true" />
+                <element signature="e#2217#2218#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/src/Correctness.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sctest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sctest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sctest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.24253732">
               <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -535,12 +534,12 @@
       <workItem from="1445267622056" duration="731000" />
       <workItem from="1445320061670" duration="13112000" />
       <workItem from="1445392266240" duration="1862000" />
-      <workItem from="1445394762064" duration="2265000" />
+      <workItem from="1445394762064" duration="2562000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18052000" />
+    <option name="totallyTimeSpent" value="18349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -602,8 +601,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#3175#3176#0" expanded="true" />
-            <element signature="e#3220#3221#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -722,8 +721,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#3175#3176#0" expanded="true" />
-            <element signature="e#3220#3221#0" expanded="true" />
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -829,6 +828,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/LogisticRegression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2217#2218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FeatureBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -849,33 +859,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sctest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Correctness.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/LogisticRegression.java">
+    <entry file="file://$PROJECT_DIR$/src/sctest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0074627">
-          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.24253732">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
           <folding>
-            <element signature="e#3175#3176#0" expanded="true" />
-            <element signature="e#3220#3221#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
