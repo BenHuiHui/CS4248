@@ -70,7 +70,7 @@ public class Correctness {
             System.out.println("Error reading file " + file2);
         }
 
-        System.out.println(c + " " + w);
+        //System.out.println(c + " " + w);
         System.out.print(1.0*c/(c+w));
 
     }

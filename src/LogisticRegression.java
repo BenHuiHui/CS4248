@@ -29,12 +29,13 @@ public class LogisticRegression {
     public double[] train (List<Instance>instances){
 
         System.out.println("Training");
-        
+
         for (int i = 0; i < numOfIterations; i++) {
 
-            double error = 0.0;
+            //double error = 0.0;
 
             //Batch gradient descent
+            /*
             for (int j = 0; j < weights.length; j++) {
 
                 double dir = 0.0;
@@ -50,9 +51,13 @@ public class LogisticRegression {
                 weights[j] = weights[j] + rate / instances.size() * dir;
                 error += dir * dir;
             }
+            */
 
-            /*
+
             //Stochastic gradient descent
+
+            double[] error = new double[weights.length];
+
             for (int j = 0; j < instances.size(); j++) {
 
                 Instance instance = instances.get(j);
@@ -62,13 +67,20 @@ public class LogisticRegression {
                     double dir = (label - predicted) * instance.features[k];
                     weights[k] = weights[k] + rate * dir;
                     //error += dir * dir;
+                    error[k] += dir;
                 }
             }
-            */
+
 
             //Stop when error is smaller than the predefined error
-            error = Math.sqrt(error);
-            System.out.println(error);
+            double err = 0;
+            for (int j = 0; j < error.length; j++) {
+                err += error[j] * error[j];
+            }
+            err = Math.sqrt(err);
+
+            if (err < 1) break;
+            //System.out.println(err);
         }
 
         return weights;
