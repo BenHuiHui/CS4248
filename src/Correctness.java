@@ -13,6 +13,7 @@ public class Correctness {
 
     //java Correctness adapt_adopt.answer adapt_adopt.answer.test
     //java Correctness bought_brought.answer bought_brought.answer.test
+    //java Correctness peace_piece.answer peace_piece.answer.test
 
     public static void main(String[] args){
         String file1 = args[0];
@@ -33,13 +34,13 @@ public class Correctness {
                 res.put(sen[0], sen[1]);
 
             }
-
+            bufferedReader.close();
         }
         catch(FileNotFoundException ex) {
-            System.out.println("Unable to open file for stopwords");
+            System.out.println("Unable to open file " + file1);
         }
         catch(IOException ex) {
-            System.out.println("Error reading file for stopwords");
+            System.out.println("Error reading file " + file1);
         }
 
         int c = 0, w = 0;
@@ -59,15 +60,17 @@ public class Correctness {
                 else
                     w++;
             }
+            bufferedReader.close();
 
         }
         catch(FileNotFoundException ex) {
-            System.out.println("Unable to open file for stopwords");
+            System.out.println("Unable to open file " + file2);
         }
         catch(IOException ex) {
-            System.out.println("Error reading file for stopwords");
+            System.out.println("Error reading file " + file2);
         }
 
+        System.out.println(c + " " + w);
         System.out.print(1.0*c/(c+w));
 
     }

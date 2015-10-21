@@ -8,8 +8,8 @@ import java.util.regex.Pattern;
 
 public class FeatureBuilder {
 
-    private static final int left_win_size = 0;
-    private static final int right_win_size = 0;
+    private static final int left_win_size = 2;
+    private static final int right_win_size = 2;
 
     static FeatureData featureDataFromFile(String fileName, String word1, String word2){
 
@@ -170,6 +170,8 @@ public class FeatureBuilder {
                 line = line.replace("\n", "").replace("\r", "");
                 stopwords.add(line);
             }
+
+            bufferedReader.close();
 
         }
         catch(FileNotFoundException ex) {

@@ -13,6 +13,7 @@ public class sctest {
 
         //java sctest adopt adapt adapt_adopt.test adapt_adopt.modal adapt_adopt.answer.test
         //java sctest bought brought bought_brought.test bought_brought.modal bought_brought.answer.test
+        //java sctest peace piece peace_piece.test peace_piece.modal peace_piece.answer.test
 
         String word1 = args[0];
         String word2 = args[1];
@@ -63,12 +64,13 @@ public class sctest {
                 i++;
             }
 
+            bufferedReader.close();
         }
         catch(FileNotFoundException ex) {
-            System.out.println("Unable to open file for stopwords");
+            System.out.println("Unable to open file " + modalFilename);
         }
         catch(IOException ex) {
-            System.out.println("Error reading file for stopwords");
+            System.out.println("Error reading file " + modalFilename);
         }
 
         //printDouble(weights);
@@ -117,12 +119,13 @@ public class sctest {
                 writer.println();
             }
 
+            bufferedReader.close();
         }
         catch(FileNotFoundException ex) {
-            System.out.println("Unable to open file for stopwords");
+            System.out.println("Unable to open file " + testFilename);
         }
         catch(IOException ex) {
-            System.out.println("Error reading file for stopwords");
+            System.out.println("Error reading file " + testFilename);
         }
 
         writer.close();

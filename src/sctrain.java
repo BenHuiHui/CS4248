@@ -11,6 +11,7 @@ public class sctrain {
 
     //java sctrain adopt adapt adapt_adopt.train adapt_adopt.modal
     //java sctrain bought brought bought_brought.train bought_brought.modal
+    //java sctrain peace piece peace_piece.train peace_piece.modal
 
     public static void  main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
 
